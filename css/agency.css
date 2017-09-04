@@ -1613,7 +1613,7 @@
 }
 .promis_list{
     display: flex;
-    display: -webkit-box;
+    /* display: -webkit-box; */
     align-items: center;
     -webkit-box-align: center;
     justify-content: center;
