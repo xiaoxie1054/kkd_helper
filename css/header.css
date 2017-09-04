@@ -34,6 +34,7 @@
     color: #fff;
     text-align: center;
     white-space: nowrap;
+    font-family: "微软雅黑";
 }
 .bar_new .icon_back{
     background: url(../images/agency.png) no-repeat;
