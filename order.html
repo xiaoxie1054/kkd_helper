@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="author" contect="xushaoxie, 1054563823@qq.com" />
+    <meta content="yes" name="apple-mobile-web-app-capable">                <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-touch-fullscreen" content="yes" />                    <!-- ios全屏模式 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">     <!-- 状态栏的背景颜色为黑色 black-translucent（灰色半透明）-->
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen" />
+    <meta name="description" content="抵押贷款">
+    <meta name="keywords" content="客客贷">
+<title>订单中心</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/cirque.css">
+</head>
+<body style="background:#e2e6e9">
+        <!-- 底部导航 -->
+    <nav class="bar bar-tab">
+        <a class="tab-item " href="index.html" onclick="">
+            <i class="icon"></i>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item active" href="order.html" onclick="">
+            <i class="icon"></i>
+            <span class="tab-label">订单</span>
+        </a>
+        <a class="tab-item" href="personal_center.html" onclick="">
+            <i class="icon"></i>
+            <span class="tab-label">我的</span>
+        </a>
+    </nav>
+    
+        <div class="content order " >
+           <div class="tab-order">
+               <div class="tab-cont pingf on">评估订单</div>
+               <div class="tab-cont brw">贷款订单</div>
+           </div>
+           <div class="box-order">
+               <div class="item-tab">
+                   <div class="cont on all">全部</div>
+                   <div class="cont loading">估值中</div>
+                   <div class="cont suc">估值完成</div>
+                   <div class="cont fail">已终止</div>
+               </div>
+               <div class="blank065"></div>
+               <!-- all -->
+               <div class="item-box all">
+                    
+                   <div class="cont">
+                       <div class="left">
+                           <span class="i_icon_guz"></span>
+                           <div class="status">估值中</div>
+                           <p class="time">预计2016-11-28</p>
+                           <p class="time">15:21前出值</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路3000000号</div>
+                       </div>
+                   </div>
+                   
+
+                   
+                   <div class="cont s_sus">
+                       <div class="left">
+                           <span class="i_icon_cg"></span>
+                           <div class="status">估值完成</div>
+                           <p class="money">773.8万</p>
+                           <p class="time">房产估值（元）</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                           <a href="borrow_want.html"><div class="btn">在线申请</div></a>
+                       </div>
+                   </div>
+                   
+
+                    
+                   <div class="cont s_sus f_fail">
+                       <div class="left">
+                           <span class="i_icon_zz"></span>
+                           <div class="status">已终止</div>
+                           <div class="status" style="font-size:0.8rem;margin:0.2rem">终止原因</div>
+                           <div class="status">提交详细地址</div>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                           <div class="btn">重新评估</div>
+                       </div>
+                   </div>
+                   
+               </div>
+               <!-- loading -->
+               <div class="item-box hide loading">
+                    <div class="cont">
+                       <div class="left">
+                           <span class="i_icon_guz"></span>
+                           <div class="status">估值中</div>
+                           <p class="time">预计2016-11-28</p>
+                           <p class="time">15:21前出值</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路3000000号</div>
+                       </div>
+                   </div>
+               </div>
+               <!-- suc -->
+               <div class="item-box hide suc">
+                 <div class="cont s_sus">
+                       <div class="left">
+                           <span class="i_icon_cg"></span>
+                           <div class="status">估值完成</div>
+                           <p class="money">773.8万</p>
+                           <p class="time">房产估值（元）</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                           <a href="borrow_want.html"><div class="btn">在线申请</div></a>
+                       </div>
+                   </div>
+               </div>
+               <!-- fail -->
+               <div class="item-box hide fail">
+                 <div class="cont s_sus f_fail">
+                       <div class="left">
+                           <span class="i_icon_zz"></span>
+                           <div class="status">已终止</div>
+                           <div class="status" style="font-size:0.8rem;margin:0.2rem">终止原因</div>
+                           <div class="status">提交详细地址</div>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                           <div class="btn">重新评估</div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- borrow -->
+           <div class="box-borw">
+               <div class="item-tab">
+                   <div class="cont on all">全部</div>
+                   <div class="cont loading">办理中</div>
+                   <div class="cont suc">已放款</div>
+                   <div class="cont fail">已失败</div>
+               </div>
+               <div class="blank065"></div>
+               <!-- all -->
+               <div class="item-box all">
+                   <div class="cont">
+                       <div class="left">
+                           <span class="i_icon_guz"></span>
+                           <div class="status">办理中</div>
+                           <p class="time">预计2016-11-28</p>
+                           <p class="time">放款</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon car">车</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路3000000号</div>
+                       </div>
+                   </div>
+                   <div class="cont ">
+                       <div class="left">
+                           <span class="i_icon_cg"></span>
+                           <div class="status">已放款</div>
+                           <p class="money">773.8万</p>
+                           <p class="time">放款金额（元）</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                       </div>
+                   </div>
+                   <div class="cont ">
+                       <div class="left">
+                           <span class="i_icon_zz"></span>
+                           <div class="status">审核不通过</div>
+                           <div class="status">已失败</div>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                       </div>
+                   </div>
+               </div>
+               <!-- two loading-->
+               <div class="item-box hide loading">
+                 <div class="cont">
+                       <div class="left">
+                           <span class="i_icon_guz"></span>
+                           <div class="status">办理中</div>
+                           <p class="time">预计2016-11-28</p>
+                           <p class="time">放款</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路3000000号</div>
+                       </div>
+                   </div>
+               </div>
+               <!-- three suc-->
+               <div class="item-box hide suc">
+                 <div class="cont ">
+                       <div class="left">
+                           <span class="i_icon_cg"></span>
+                           <div class="status">已放款</div>
+                           <p class="money">773.8万</p>
+                           <p class="time">放款金额（元）</p>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon car">车</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                       </div>
+                   </div>
+               </div>
+               <!-- four fail-->
+               <div class="item-box hide fail">
+                 <div class="cont ">
+                       <div class="left">
+                           <span class="i_icon_zz"></span>
+                           <div class="status">审核不通过</div>
+                           <div class="status">已失败</div>
+                       </div>
+                       <div class="right">
+                            <div class="tips_icon house">房</div>
+                           <div class="pro_title">订单编号2016112800577</div>
+                           <div class="pro_tex">申请时间2016-11-28</div>
+                           <div class="pro_tex">广州市天骏国际大厦天河路300号</div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/fix_code.js"></script>
+<script type="text/javascript" src="js/commom.js"></script>
+    <script type="text/javascript">
+            
+            $(document).ready(function(){
+
+                $('.item-tab .cont').click(function(){
+                    $(this).siblings().removeClass('on');
+                    $(this).addClass('on');
+                    if($(this).hasClass('all')){
+                      $(this).parent().siblings('.item-box').hide();
+                      $(this).parent().siblings('.item-box.all').show();
+                    }
+                   else if($(this).hasClass('loading')){
+                      $(this).parent().siblings('.item-box').hide();
+                      $(this).parent().siblings('.item-box.loading').show();
+                    }
+                   else if($(this).hasClass('suc')){
+                      $(this).parent().siblings('.item-box').hide();
+                      $(this).parent().siblings('.item-box.suc').show();
+                    }
+                   else if($(this).hasClass('fail')){
+                      $(this).parent().siblings('.item-box').hide();
+                      $(this).parent().siblings('.item-box.fail').show();
+                    }
+                })
+                $('.box-borw').hide();
+                $('.tab-order .tab-cont').click(function(){
+                    $('.tab-order .tab-cont').removeClass('on');
+                    $(this).addClass('on');
+                    if($(this).hasClass('brw')){
+                        $('.box-order').hide();
+                        $('.box-borw').show();
+                    }else{
+                        $('.box-borw').hide();
+                        $('.box-order').show();
+                    }
+                })
+            })
+    </script>
+</body>
+</html>

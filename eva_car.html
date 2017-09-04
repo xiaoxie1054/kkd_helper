@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="author" contect="xushaoxie, 1054563823@qq.com" />
+    <meta content="yes" name="apple-mobile-web-app-capable">                <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-touch-fullscreen" content="yes" />                    <!-- ios全屏模式 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">     <!-- 状态栏的背景颜色为黑色 black-translucent（灰色半透明）-->
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen" />
+    <meta name="description" content="抵押贷款">
+    <meta name="keywords" content="客客贷">
+<title>我要评车</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/cirque.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="bar-nav bar_new">
+        <a onclick="" class="button button-nav pull-left">
+            <span class="icon_back"></span>
+        </a>
+        <h1 class="title pull-left">我要评车</h1>
+    </header>
+    <!-- 顶部导航 end -->
+        <div class="content eva_car" style="background:#e2e6e9">
+            <div class="blank065"></div>
+            <div class="bg_banner">
+                <div class="pro_name">估值数据总量（次）</div>
+                <div class="pro_num">792265914551</div>
+            </div>
+            <form action="javascript:;">
+            <div class="select_box">
+                <div class="project">
+                    <div class="pro_name">车辆型号</div>
+                    <a href="javascript:;"><div class="pro_val">请选择</div></a>
+                    <div class="arrow"></div>
+                </div>
+                <div class="project">
+                    <div class="pro_name">所在城市</div>
+                    <select name="" id="" class="pro_val city">
+                        <option value="">请选择</option>
+                        <option value="">广州</option>
+                    </select>
+                    <select name="" id="" class="pro_val city">
+                        <option value="">请选择</option>
+                        <option value="">广州</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+                <div class="project">
+                    <div class="pro_name">首次上牌</div>
+                    <input type='month' class="pro_val" >
+                    <div class="arrow"></div>
+                </div>
+                <div class="project nb">
+                    <div class="pro_name">行驶里程</div>
+                    <input type="text" class="pro_val" style="padding:0;flex:1" placeholder='请输入里程表'>
+                    <div class="tip">万公里</div>
+                </div>
+            </div>
+            <div class="sub_box">
+                <span class="tips">估值结果仅供参考，实际抵押价格需客客贷风控专员审核确认</span>
+                <div class="blank035"></div>
+                <input type="submit" class="sub_button" value="开始估值">
+            </div>
+            </form>
+    </div>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/fix_code.js"></script>
+<script type="text/javascript" src="js/commom.js"></script>
+    <script type="text/javascript">
+           
+            $(document).ready(function(){
+                $('.radio_btn').click(function(){
+                    $(this).siblings('.radio_btn').removeClass('on');
+                    $(this).addClass('on');
+                })
+                
+                $('.tap_select .tap').click(function(event) {
+                    $('.tap').removeClass('on');
+                    $(this).addClass('on');
+                    if($(this).hasClass('left')){
+                        $('.has_page').show();
+                        $('.has_page_no').hide();
+                    }else{
+                        $('.has_page').hide();
+                        $('.has_page_no').show();
+                    }
+                });
+            })
+    </script>
+</body>
+</html>
