@@ -138,11 +138,11 @@
  }
  .eva_house .sub_box .sub_button{
     width: 100%;
-    height: 2.5rem;
+    height: 2rem;
     background: #3a72bf;
     color:#fff;
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
  }
  .eva_house .tap_select{
     height: 2.5rem;
@@ -297,13 +297,14 @@
     background: #fff;
 }
 .project .pro_title{
-    
-    display: -webkit-box;
-    display: flex;
     width: 100%;
-    align-items:center;
-    -webkit-box-align:center;
-    justify-content:space-between;
+    display: flex;
+    display: -webkit-box;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
 }
 .project .pro_title .line{
     width: 5rem;
@@ -313,12 +314,21 @@
     -moz-box-flex: 1;         
     -ms-flex: 1;
     flex:1;
+    display: block;
     
 }
 .project .pro_title .pro_name{
-    color:#666;
+    color: #666;
     font-size: 0.85rem;
     padding: 0 0.85rem;
+    display: flex;
+    display: -webkit-box;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    text-align: center;
 } 
 .project .pro_content{
     text-align: center;
@@ -336,14 +346,14 @@
     padding-bottom: 0.75rem;
 }
 .project .pro_content .btn{
-    /*width: 14.75rem;*/
-    height: 2.5rem;
+    width: 100%;
+    height: 2rem;
     border-radius: 5px;
-    color:#fff;
-    line-height: 2.5rem;
+    color: white;
+    line-height: 2rem;
     text-align: center;
-    font-size: 0.9rem;
-    margin:auto;
+    font-size: 0.8rem;
+    margin: auto;
 }
 .project .pro_content .i_r_arrow{
     background: url(../images/index_two.png) no-repeat -17.5rem 0;
@@ -378,12 +388,22 @@
     position: relative;
 }
 .index .adv .pro_name,.index .adv .expam{
-    display: -webkit-box;
-    display: flex;
     width: 100%;
-    align-items:center;
-    -webkit-box-align:center;
-    justify-content:center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
 .index .adv .expam{
     position: absolute;
@@ -467,7 +487,8 @@
     background-size: 50rem;
     width: 0.5rem;
     height: 0.5rem;
-    margin:0 0.2rem;
+    margin: 0 0.2rem;
+    display:block;
 }
 .index .adv .pro_name .i_fuhao.left{
     background-position: -12.5rem 0;
@@ -539,7 +560,8 @@
 .order .tab-order .tab-cont{
     color:#8297bb;
     font-size: 0.9rem;
-    margin:0 1.5rem;
+    width: 50%;
+    text-align: center;
 }
 .order .tab-order .tab-cont.on{
     color:#fff;
@@ -552,7 +574,7 @@
     align-items:center;
     -webkit-box-align:center;
     justify-content:space-between;
-    padding: 0 1.5rem;
+    padding: 0 4%;
     background: #fff;
 }
 .order .item-tab .cont{
@@ -562,6 +584,9 @@
     line-height: 2.5rem;
     height: 2.5rem;
     border-bottom: 0.15rem solid #fff;
+    width: 19%;
+    text-align: center;
+    margin: 0 3%;
 }
 .order .item-tab .cont.on{
     border-bottom: 0.15rem solid #2a5794;
@@ -581,10 +606,10 @@
     background: #2a5794;
     text-align: center;
     flex:none;
-    height: 7.125rem;
+   /* height: 7.125rem;*/
 }
 .order .item-box .cont.s_sus .left{
-    height: 8.25rem;
+    /*height: 8.25rem;*/
 }
 .order .item-box .cont .left .i_icon_guz{
     width: 1.55rem;
@@ -608,16 +633,17 @@
     background: url(../images/index_two.png) no-repeat -25rem 0;
     background-size: 50rem;
     display:inline-block;
-    margin-top: 1.25rem;
+    margin-top: 1rem;
 }
 .order .item-box .cont .left .status{
     font-size: 0.7rem;
     color:#fff;
+    padding-bottom:10px;
 }
 .order .item-box .cont .left .time{
     font-size: 0.65rem;
     color:#fff;
-    margin-top: 0.15rem;
+    padding-bottom:10px;
 }
 .order .item-box .cont .left .money{
     font-size: 0.9rem;
@@ -632,7 +658,7 @@
     
     background: #fff;
     padding: 0 0.7rem;
-    height: 7.125rem;
+   /*height: 7.125rem;*/
     width: 60%;
     position: relative;
 }
@@ -655,7 +681,7 @@
     background: #dbb76b;
 }
 .order .item-box .cont.s_sus .right{
-    height: 8.25rem;
+    /*height: 8.25rem;*/
 }
 .order .item-box .cont .right .pro_title{
     font-size: 0.6rem;
@@ -719,12 +745,28 @@
     background-color: #71c08c;
 }
 .bankcar .car_cont .i_bank{
+    background: url(../images/index_two.png) no-repeat;
     width: 2.2rem;
     height: 2.2rem;
-    background: url(../images/index_two.png) no-repeat;
     background-size: 50rem;
-    margin:0.75rem;
-    margin-top: -0.75rem;
+    margin: -.4rem 0.75rem 0.75rem 0.75rem;
+    display: inline-block;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;    
+
 }
 .bankcar .car_cont.pingan .i_bank{
     background-position: -0rem -5rem;
@@ -755,7 +797,7 @@
     font-size: 0.6rem;
 }
 .bankcar .car_cont .car_info .car_num{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .bankcar .car_cont .i_bg_bank_pa{
     height: 5rem;
@@ -938,11 +980,11 @@
  }
  .eva_car .sub_box .sub_button{
     width: 100%;
-    height: 2.5rem;
+    height: 2rem;
     background: #3a72bf;
     color:#fff;
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
  }
  .eva_car_choose{
     width: 100%;
@@ -1323,10 +1365,10 @@
     border-radius: 6px;
     background: #3262a3;
     color:#fff;
-    line-height: 2.5rem;
-    height: 2.5rem;
+    line-height: 2rem;
+    height: 2rem;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     display:block;
 }
 .brw_step_2 .cont{
